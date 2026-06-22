@@ -1,0 +1,61 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python packaging
+*.egg-info/
+dist/
+build/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# TensorFlow / Keras logs and caches
+results/tensorboard_logs/
+*.log
+
+# Downloaded MNIST cache (auto-fetched by Keras)
+data/mnist/
+data/*.npz
+
+# Trained model weights (large binaries; regenerate via train.py)
+models/*.keras
+models/*.h5
+
+# Generated result plots (regenerate via evaluate.py)
+results/*.png
+results/*.txt
+
+# Sample images used for local testing
+images/*.png
+images/*.jpg
+images/*.jpeg
+
+# Keep directory structure
+!data/.gitkeep
+!images/.gitkeep
+!models/.gitkeep
+!results/.gitkeep
